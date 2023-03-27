@@ -18,3 +18,13 @@ interface postResponseType {
     message: string;
 }
 
+interface InitialState {
+    users: userType[];
+    user: userType;
+    loading: boolean;
+}
+
+interface initialState {
+
+}
+
