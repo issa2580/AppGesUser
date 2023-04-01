@@ -4,6 +4,7 @@ import user from './app/user'
 export const store = configureStore({
     reducer: {
       user,
+      tst,
     },
     middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
